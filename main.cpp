@@ -48,12 +48,12 @@ int main()
 // Ahora para desplegar todo alineado correctamente
 
     cout << fixed << setprecision(2);
-    cout << left << setw(30) << "Nombre de pelicula: " << right << setw(20) << "\""<< nombre_pelicula << "\""<< endl;
-    cout << left << setw(30) << "Taquillas vendidas de adultos: " << right << setw(20) << taquilla_adulto << endl;
-    cout << left << setw(30) << "Taquillas vendidas de ninos: " << right << setw(20) << taquilla_nino << endl;
+    cout << left << setw(30) << "Nombre de pelicula: " << right << setw(15) << "\""<< nombre_pelicula << "\""<< endl;
+    cout << left << setw(30) << "Taquillas vendidas de adultos: " << right << setw(16) << taquilla_adulto << endl;
+    cout << left << setw(30) << "Taquillas vendidas de ninos: " << right << setw(17) << taquilla_nino << endl;
     cout << left << setw(30) << "Ingreso bruto: " << right << setw(10) << "$" << setw(10) << IngresoBruto << endl;
     cout << left << setw(30) << "Ganado del teatro: " << right << setw(10) << "$" << setw(10) << BeneficioNeto << endl;
-    cout << left << setw(30) << "Cantidad pagado al distribuidor: " << right << setw(20) << "$" << setw(10) << DistruibidorCantidad << endl;
+    cout << left << setw(30) << "Cantidad pagado al distribuidor: " << right << setw(7) << "$" << setw(10) << DistruibidorCantidad << endl;
 
     return 0;
 
