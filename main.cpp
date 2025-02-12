@@ -25,12 +25,12 @@ int main()
 
 // Aqui cuantas taquillas de adultos vendidas
     cout << "Ahora escriba cuantas taquillas se vendieron de adultos: ";
-        string taquilla_adulto;
+        string taquillas_adulto;
             cin >> taquilla_adulto;
             
 //  Aqui cuantas taquillas de ninos vendidas        
     cout << "Finalmente escribe cuantas taquillas se vendieron de ninos: ";
-        string taquilla_nino;
+        string taquillas_nino;
             cin >> taquilla_nino;
 
 // Aqui se calcula el "gross revenue"
@@ -48,8 +48,15 @@ int main()
 // Ahora para desplegar todo alineado correctamente
 
     cout << fixed << setprecision(2);
-    cout << left << setw(30) << "Escriba el nombre de la pelicula: " << right << setw(20) << "\""<< "nombre_pelicula << "\""<< endl;
-    cout << left << setw(30) << "Escriba cuantas taquillas se vendieron de adultos: " << right setw(20) << taquilla_adulto
+    cout << left << setw(30) << "Nombre de pelicula: " << right << setw(20) << ""\""<< nombre_pelicula << ""\""<< endl;
+    cout << left << setw(30) << "Taquillas vendidas de adultos: " << right setw(20) << taquilla_adulto << endl;
+    cout << left << setw(30) << "Taquillas vendidas de ninos: " << right setw(20) << taquilla_nino << endl;
+    cout << left << setw(30) << "Ingreso bruto: " << right setw(20) << "$" << IngresoBruto << endl;
+    cout << left << setw(30) << "Ganado del teatro: " << right setw(20) << "$" << BeneficioNeto << endl;
+    cout << left << setw(30) << "Cantidad pagado al distribuidor: " << right setw(20) << "$" << DistruibidorCantidad << endl;
+
+    return 0;
+
     
 
 
